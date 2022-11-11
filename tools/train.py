@@ -353,7 +353,7 @@ def main():
             print(f"✨ [Info msg] Vanila Training will be starting")
             runner.load_checkpoint(cfg.load_from)
 
-    # print(cfg.pretty_text)
+    # print(cfg.pretty_text) 
     
     # errored: RuntimeError('CUDA out of memory 방지)
     torch.cuda.empty_cache()
