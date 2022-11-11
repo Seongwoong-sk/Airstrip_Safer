@@ -20,7 +20,7 @@ os.system('pip install -q --upgrade wandb')
 import wandb
 wandb.login()
 
-# Setting System Path
+# Setting System Path 
 sys.path.append('/content/drive/MyDrive/Air_PY')
 
 import mmdet
