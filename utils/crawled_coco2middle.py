@@ -1,5 +1,5 @@
 
-# 👉 Roboflow에서 크롤링해서 얻은 이미지들로 데이터셋을 생성했었음.
+# 👉 Roboflow에서 크롤링해서 얻은 이미지들로 데이터셋을 생성했었음. 
 # 👉 생성된 데이터셋의 Label 형식은 "COCO Format" 형식으로 돼있어서 MMDetection의 "Middle Format"으로 변환해서 Original Dataset으로 옮기는 파이썬 파일
 # 👉 AI HUB의 원본 데이터셋의 Label 형식은 Pascal VOC 처럼 각 이미지마다 json 파일이 형성돼있음.
 
