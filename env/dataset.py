@@ -1,7 +1,7 @@
 # https://github.com/open-mmlab/mmdetection/blob/master/mmdet/datasets/custom.py 여기에 있는 CustomDataset 클래스
 
 '''
-🔥 CustomDataset --> Middle Format Transformation 🔥
+🔥 CustomDataset --> Middle Format Transformation 🔥 
 
 👉 하나의 이미지에 하나의 annotation으로 매칭되고 있는데, custom에 맞게 변경.
 
