@@ -1,4 +1,4 @@
-## 👉 Web Crawler ##
+## 👉 Web Crawler ## 
 
 # Libraries
 import os
