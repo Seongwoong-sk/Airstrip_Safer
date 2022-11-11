@@ -1,5 +1,5 @@
 
-# 👉 AI Hub에서 다운로드 받아서 전처리된 데이터와 라벨 데이터들의 수량을 다듬고 
+# 👉 AI Hub에서 다운로드 받아서 전처리된 데이터와 라벨 데이터들의 수량을 다듬고  
 # 👉 " train & val & test "로 분리해서 Original 데이터셋에 옮기는 코드
 '''
 < Structure Example >
