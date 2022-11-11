@@ -1,5 +1,5 @@
 
-# 👉 Ablation Study, Optimal Hyperparameter Seacrching 등을 할 때 시간을 절약하기 위해서 
+# 👉 Ablation Study, Optimal Hyperparameter Seacrching 등을 할 때 시간을 절약하기 위해서  
 # 👉 Original Dataset에서 클래스 별로 균등하게 추출하여 임시로 만든 Mini Dataset을 만드는 파이썬 파일
 # 👉 하나의 클래스에 기능 별로 함수를 만들어서 모듈화
 ️
