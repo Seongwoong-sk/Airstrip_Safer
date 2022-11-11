@@ -1,3 +1,4 @@
+# Dataset
 dataset_type = 'CocoDataset'
 data_root = 'data/coco/'
 img_norm_cfg = dict(
