@@ -1,5 +1,5 @@
 
-# 👉 Annotation 용도로 쓰일 Meta File (.txt) 생성하는 파이썬 파일
+# 👉 Annotation 용도로 쓰일 Meta File (.txt) 생성하는 파이썬 파일 
 # 👉 Train & Val & Test로 분할돼있지 않은 데이터(이미지)의 파일명을 추출해서 파일명을 담은 train & test txt파일 형성
 
 # --> Split dataset into Train & Test   (Split dataset into Train & Val & Test는 ./extract_split_move.py에 위치)
