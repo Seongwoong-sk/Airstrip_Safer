@@ -14,7 +14,43 @@
 Project Airstrip_Safer는 활주로 내 비행기 사고에 위협이 되는 객체를 `이상 객체`로 규정하고, 이 객체들을 실시간으로 정확하게 탐지하는 AI CCTV를 만드는 것이 목표입니다.
 
 
+<br>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Project Architecture
+```
+<Proejct folder>
+├── checkpoints
+│   ├── Final model weight
+│   ├── Initial model weight
+│
+├── configs
+│   ├── FINAL.py
+│   ├── original_config.py
+│
+├── env
+│   ├── dataset.py
+│   ├── setup.py
+│   ├── streamlit_setup.py
+│
+├── tools
+│   ├── train.py
+│   ├── test.py
+│   ├── inference.py
+│
+├── utils
+│   ├── crawled_coco2middle.py
+│   ├── crawler.py
+│   ├── extract_split_move.py
+│   ├── make_annotation.py
+│   ├── make_mini-dataset.py
+│   ├── streamlit.py
+│
+├── Run_Streamlit.ipynb
+│
+├── requirements.txt
+```
 
 <br>
 
@@ -22,7 +58,6 @@ Project Airstrip_Safer는 활주로 내 비행기 사고에 위협이 되는 객
 
 ## Model
 Detection Model은 [MMDetection](https://github.com/open-mmlab/mmdetection)을 참고하여 [Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR)을 사용했습니다. 
-
 
 <br>
 
