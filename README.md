@@ -1,7 +1,7 @@
 # Airstrip Safer
 
 <p align="left">
-  <img width="700" src="C:\Users\rlatj\Desktop\github main.png" "Amenity Detection">
+  <img width="700" src="https://github.com/Seongwoong-sk/Airstrip_Safer/blob/main/github%20main.png" "airstrip">
 </p>
 
 
@@ -47,25 +47,42 @@ python utils/setup.py
 <br>
 
 ## How to Run
+Detail한 arguments들은 각 파일 내에서 확인 가능합니다.
 
-### Train
+### Train & Validation
+```
+python tools/train.py \
+--config configs/FINAL.py \                        # If initial training, use original_config.py
+--work_dir <path to save model weight files> \
+--max_epochs <number> \                            # 현재 epoch 기준으로 최대 epoch 설정
+--checkpoint <checkpoint_path> \                   # Initial training / model weight path 지정
+--resume_from <resume_checkpoint> \                # Resume training / 저장돼있는 model weight path 지정
+--seed <number> \
+--validate <option> \                              # If not, write False to option blank
+--deterministic                                    # Set deterministic options for CUDNN backend 
 ```
 
-```
-
-### Validation
-```
-
-```
 
 ### Test
 ```
-
+python tools/test.py \
+--config configs/FINAL.py \
+--checkpoint <path to saved model weight file> \
+--work_dir <path to save the file containing evaluation metrics> \
+--out <output_filename.pkl> \                   
+--eval mAP \
+--show_dir <path to show painted images> \
+--threshold 0.5
 ```
 
 ### Inference
 ```
-
+python /content/drive/MyDrive/Air_PY/tools/inference.py \
+--config configs/FINAL.py \
+--checkpoint <path to saved model weight file> \
+--video <path of video to inference> \
+--threshold 0.5 \
+--out_video <path of result video to save>
 ```
 
 ## Deployment
