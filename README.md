@@ -20,6 +20,13 @@ Project Airstrip_Safer는 활주로 내 비행기 사고에 위협이 되는 객
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Model
+Detection Model은 [MMDetection](https://github.com/open-mmlab/mmdetection)을 참고하여 [Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR)을 사용했습니다. 
+
+
+<br>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Getting Started
 
